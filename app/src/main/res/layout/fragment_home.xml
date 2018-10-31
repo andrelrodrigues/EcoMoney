@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ecomoney.ecomoney.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D8212121"
+        >
+
+        <TextView
+            android:id="@+id/meusPontos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="14dp"
+            android:text="Meus Pontos"
+            android:textColor="@color/coloarButtonLogin"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/pontuacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/meusPontos"
+            android:layout_marginTop="106dp"
+            android:text="Pontuação atual:"
+            android:textColor="@android:color/background_light"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/pontuacaoAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/pontuacao"
+            android:layout_marginStart="173dp"
+            android:text="0"
+            android:textColor="@android:color/background_light"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EcoMoney</string>
+
+    <string name="name"> Diginte seu nome</string>
+    <string name="cpf"> Digite seu CPF</string>
+    <string name="email"> Digite seu E-mail</string>
+    <string name="password">Digites sua senha</string>
+    <string name="confrpassword">Confime sua senha</string>
+    <string name="address">Digite seu endereço</string>
+    <string name="city">Digite sua cidade</string>
+    <string name="coutry">Digite seu estado</string>
+    <string name="cep">Digite seu CEP</string>
+    <string name="rememner">Lembrar</string>
+    <string name="register">Criar conta</string>
+    <string name="login">Login</string>
+    <string name="getPhoto">Tirar foto</string>
+    <string name="save">Gravar</string>
+
+
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_location">Location</string>
+    <string name="nav_request_money">Request Money</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location_fragment">Map</string>
+</resources>
